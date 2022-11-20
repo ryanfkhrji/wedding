@@ -1,0 +1,169 @@
+:root {
+  --playfair: "Playfair Display", serif;
+  --quicksand: "Quicksand", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --great: "Great Vibes", cursive;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--quicksand);
+}
+
+body {
+  line-height: 1.4;
+  color: var(--dark);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../asset/img/IMG_6240.JPG) center/cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.banner {
+  flex: 1;
+  display: flex;
+  /* align-items: center; */
+  margin-top: 10rem;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-tittle {
+  font-size: 3rem;
+  font-family: var(--playfair);
+  line-height: 1.2;
+}
+
+.sub-tittle {
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  font-family: var(--quicksand);
+  line-height: 1.3;
+}
+
+.button-undangan {
+  padding-top: 1rem;
+}
+
+.button-undangan a {
+  font-family: var(--Roboto);
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--dark);
+  display: inline-block;
+  background: var(--dark);
+  color: #fff;
+  padding: 0.55rem 1.2rem;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.button-undangan a:hover {
+  background: var(--exDark);
+  color: #fff;
+}
+
+.header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../asset/img/IMG_6229.JPG) center/cover no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.invitation {
+  flex: 1;
+  display: flex;
+  /* align-items: center; */
+  margin-top: 4rem;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.inv-tittle {
+  font-size: 1.3rem;
+  font-family: var(--quicksand);
+  letter-spacing: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.sub-inv-tittle {
+  font-family: var(--great);
+  font-size: 3rem;
+}
+
+.date-inv {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.design {
+  padding: 4.5rem 0;
+}
+
+.tittle {
+  padding: 1rem 0;
+}
+
+.tittle h3 {
+  font-family: var(--playfair);
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.tittle p {
+  font-size: 1.2rem;
+}
+
+.img-mempelay .cowo {
+  font-size: 2.5rem;
+  font-family: var(--great);
+}
+
+.akadresepai {
+  background: #f9f9f9;
+  padding: 2.5rem 0;
+}
+
+.tittle h4 {
+  font-size: 1.8rem;
+  font-family: var(--great);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.ayat {
+  background: #f9f9f9;
+  padding: 4.5rem 0;
+}
+
+footer {
+  background: var(--dark);
+  padding: 1.5rem 0;
+}
+
+footer p {
+  font-family: var(--playfair);
+}
